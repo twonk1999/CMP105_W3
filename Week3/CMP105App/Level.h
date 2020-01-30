@@ -22,5 +22,7 @@ private:
 
 	// Default variables for level class.
 	sf::RenderWindow* window;
+	float speed = 375;
 	Input* input;
+	sf::RectangleShape rect;
 };
